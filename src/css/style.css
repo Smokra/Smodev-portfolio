@@ -1,13 +1,20 @@
+/*
+$color-alpha: #42c4de;
+$color-betha: #000000;
+$color-delta: #ffffff;
+*/
+
 .logo {
-  height: 300px;
-  background-image: url("./img/logo.png");
-  background-size: 100%;
-  background-position: left bottom;
-  background-repeat: repeat-x;
+  height: 200px;
+  display: block;
+  background-image: url("../img/logo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .cover {
   height: 800px;
-  background-image: url("./img/cover.jpg");
-  background-size: 100%;
+  background-image: linear-gradient(#000000, #42c4de, #ffffff);
 }
+
